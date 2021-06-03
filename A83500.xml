@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The ten yeeres proceedings of the late Parliament, concerning the case of Sir Richard Gurney.</title>
+         </titleStmt>
+         <extent>Approx. 69KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A83500</idno><idno type="EEBO-CITATION">47683427</idno>
+  <idno type="VID">172892</idno>
+  <idno type="EEBO-PROQUEST">2248522119</idno>
+  
+            <idno type="STC">Wing E2317C</idno>
+            <idno type="STC">ESTC R215484</idno>
+            <idno type="OCLC">47683427</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A83500)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 172892)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2655:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The ten yeeres proceedings of the late Parliament, concerning the case of Sir Richard Gurney.</title>
+               </titleStmt>
+               <extent>[4], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>Printed in the Yeare 1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Headpiece; initial.</note>
+                  <note>Printer's device on t.p. is variant of McK. 379, without initials.</note>
+                  <note>Reproduction of original in: Birmingham Central Reference Library (Birmingham, England).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="personal_name">Gurney, Richard, --  Sir, 1577-1647.</term>
+               <term type="topical_term">Trials (Treason) --  England --  Early works to 1800.</term>
+               <term type="geographic_name">Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-03 </date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-06 </date>
+            <label>Alexis (Ali) Jakobson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-06 </date>
+            <label>Alexis (Ali) Jakobson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:172892:1"/>
+            <pb facs="tcp:172892:1"/>
+            <p>THE <hi>TEN YEERES</hi> PROCEEDINGS OF THE LATE PARLIAMENT, <hi>CONCERNING</hi> THE CASE OF SIR <hi>RICHARD GƲRNEY.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Yeare 1652.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:172892:2"/>
+            <pb facs="tcp:172892:2"/>
+            <head>The Contents.</head>
+            <list>
+               <item>
+                  <hi>THe Impeachment of the House of Commons,</hi> fig. 1.</item>
+               <item>
+                  <hi>The Sentence of the House of Lords,</hi> fig. 2.</item>
+               <item>
+                  <hi>The Proceedings of the Committee of</hi> Goldsmiths <hi>Hall,</hi> fig. 3. to 10.</item>
+               <item>
+                  <hi>The Proceeding at the Committee of Lords and Commons for Sequestration,</hi> fig. 10. to 21.</item>
+               <item>
+                  <hi>The Discharges,</hi> fig. 21. to 24.</item>
+               <item>
+                  <hi>The Proceeding of the Commissioners sitting at</hi> Haberda<g ref="char:EOLhyphen"/>shers <hi>Hall, with their Report to the Parliament, and the Parliaments reference of that Report, and severall Or<g ref="char:EOLhyphen"/>ders of Parliament,</hi> fig. 25. to 36.</item>
+               <item>
+                  <hi>An Abstract of the Ordinances of Sequestration,</hi> fig. 37. and 37.</item>
+               <item>
+                  <hi>A President for discharge in the same Case,</hi> fig. 38, 39, 40.</item>
+               <item>
+                  <hi>An Abstract of a Deed of Settlement of Sir</hi> Richard Gur<g ref="char:EOLhyphen"/>ney's <hi>Estate, and of his Will,</hi> fig. 41, 42.</item>
+               <item>
+                  <hi>The Clauses of the Act of Pardon relating to this Case,</hi> fig. 43.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:172892:3"/>
+            <pb n="1" facs="tcp:172892:3"/>
+            <head>Martis 5. Iul. 1642.</head>
+            <div type="part">
+               <p>
+                  <seg rend="decorInit">T</seg>Hat Sir <hi>Richard Gurney,</hi> Knight and <milestone type="tcpmilestone" unit="unspecified" n="I"/> Baronet, on or about the Last day of <hi>Iune,</hi> 1642. being then Lord Major of the City of <hi>London;</hi> in severall places of the said City, unlawfully and maliciously caused Proclamation to be made for the putting in Execution of the Commission of Array, ten<g ref="char:EOLhyphen"/>ding to the raising of Forces against the Parliament, and to the subversion of the Lawes and Peace of this King<g ref="char:EOLhyphen"/>dome.</p>
+               <p>For the which, the House and Commons impeach the said Sir <hi>Richard Gurney,</hi> Knight and Baronet, in the name of the House of Commons, and of all the Com<g ref="char:EOLhyphen"/>mons of <hi>England,</hi> of high crimes and misdemeanours, and saving to themselves all liberties and advantages of exhibiting all other accusations against him. They doe desire that he may be called to a speedy answer in the presence of the Commons.</p>
+               <closer>
+                  <signed>Iohn Browne Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="2" facs="tcp:172892:4"/>
+               <head>Die Veneris 12. August, 1642.</head>
+               <p>WHereas Sir <hi>Richard Gurney</hi> Knight and <milestone type="tcpmilestone" unit="unspecified" n="II"/> Baronet, Lord Major of the City of <hi>Lon<g ref="char:EOLhyphen"/>don,</hi> hath been impeached by the Knights, Citizens, and Burgesses of the House of Commons, for causing Proclamation to be made in severall places of the City of <hi>London</hi> for the putting in execution the Commission of Array, tending to the raising of Forces against the Parliament, and the subversion of the Lawes and peace of this Kingdome; and for the framing of two false and scandalous Petitions to set division be<g ref="char:EOLhyphen"/>tweene His Majesty and the Parliament, and the Parlia<g ref="char:EOLhyphen"/>ment and the City; and for imprisoning certaine Ap<g ref="char:EOLhyphen"/>prentices, who had framed a Petition unto the Parlia<g ref="char:EOLhyphen"/>ment, and not punishing and proceeding against certaine Rioters, or misdoers within the City of <hi>London,</hi> acted on or about the 2. of <hi>February</hi> 1641, and for refusing or neglecting to call a Common Councell for the good and safety of said City and Kingdome, being there<g ref="char:EOLhyphen"/>unto commanded by the Authority of both Houses of Parliament.</p>
+               <p>2. The Lords having taken the said Charges into their consideration, doe finde the said Sir <hi>Richard Gurney,</hi> Lord Major of the City of <hi>London,</hi> guilty of causing the said Proclamation for putting the Commission of Array in execution to be published, tending to the disturbance of the peace of this Kingdome, and of not suppressing the said riots and misdemeanours, and of not calling a Common Councell, as he was by Order of Parliament required; and for these offences, this High Court doth award and adjudge,</p>
+               <list>
+                  <pb n="3" facs="tcp:172892:4"/>
+                  <item>1. <hi>That the said Sir</hi> Richard Gurney <hi>shall be no longer Lord Major of the City of</hi> London.</item>
+                  <item>2. <hi>That he shall be hereafter uncapable to beare any Of<g ref="char:EOLhyphen"/>fice in the said City of</hi> London.</item>
+                  <item>3. <hi>That he shall be uncapable to beare or receive any fur<g ref="char:EOLhyphen"/>ther Honour hereafter.</hi>
+                  </item>
+                  <item>4. <hi>That he shall be imprisoned in the Tower of</hi> London, <hi>during the pleasure of the House.</hi>
+                  </item>
+               </list>
+               <closer>
+                  <signed>Iohn Browne Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Lunae 29. Iul. 1644.</head>
+               <p>ORdered by the Commons assembled in Parlia<g ref="char:EOLhyphen"/>ment, <milestone type="tcpmilestone" unit="unspecified" n="III"/> That the Committee at <hi>Goldsmiths Hall</hi> doe consider of all Prisoners, whose Estates are sequestred, and require a List of them from the severall persons that have the custody of them, and consider of raising moneys (by compounding with them) for the <hi>Scots</hi> Army, and Lord <hi>Fairfaxes</hi> Army, and present their opinions upon the whole matter to the House.</p>
+               <closer>
+                  <signed>H: Elsinge Cler. Par. Dom. Com.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Martis 30. Iul. 1644.</head>
+               <p>IN pursuance of an Order to the House of Com<g ref="char:EOLhyphen"/>mons, <milestone type="tcpmilestone" unit="unspecified" n="IV"/> dated 29. <hi>Iuly</hi> 1644. You are required to send to this Committe by <hi>Friday</hi> next in the After<g ref="char:EOLhyphen"/>noone, the names of such Prisoners of quality under your custody, whose Estates are sequestred by Ordi<g ref="char:EOLhyphen"/>nance
+<pb n="4" facs="tcp:172892:5"/> of Parliament, and to certifie the Crimes for which they are committed, &amp;c. The Tower, &amp;c.</p>
+               <closer>
+                  <signed>Iohn Leech.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Dei Martis 20. August. 1644.</head>
+               <p>ORdered that the Sub-Committee appointed to <milestone type="tcpmilestone" unit="unspecified" n="V"/> examine the Estates and Delinquency of the se<g ref="char:EOLhyphen"/>verall persons, whose names are returned by the Keepers of the severall Prisons in and about the Ci<g ref="char:EOLhyphen"/>ty, doe make their report of their proceedings therein on <hi>Friday</hi> next to this Committee.</p>
+               <closer>
+                  <signed>Iohn Leech.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>27. <hi>August</hi> 1644.</head>
+               <p>
+                  <hi>Resolved, &amp;c.</hi>
+               </p>
+               <p>THat the businesse concerning the Prisoners in <milestone type="tcpmilestone" unit="unspecified" n="VI"/> the severall Prisons, &amp;c. touching the Fines to be set upon them for their severall Delinquen<g ref="char:EOLhyphen"/>cies, be re-committed to the same Committee, who are ordered to make their report on <hi>Friday</hi> next, of such proceedings as they shall make therein; and they are desired first to consider of the most wealthy and able persons, and present the Fines fit to bee set on them.</p>
+               <closer>
+                  <signed>Iohn Leech.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="5" facs="tcp:172892:5"/>
+               <head>Die Mercurii, 23. Octob. 1644.</head>
+               <opener>
+                  <salute>Resolved upon the Question,</salute>
+               </opener>
+               <p>THat Sir <hi>Richard Gurney,</hi> Sir <hi>Benjamine Ayliffe,</hi>
+                  <milestone type="tcpmilestone" unit="unspecified" n="VII"/> Sir <hi>Robert Cooke, Thomas Coningsby</hi> Esq. Sir <hi>Roger Twisden</hi> Knight, <hi>10: Corbet</hi> Esq. <hi>Thomas Dunstable,</hi> Sir <hi>Francis Williamson</hi> Knight, <hi>Edward Maynard</hi> Esq. Sir <hi>Iohn Morley</hi> Knight, Sir <hi>Edward Heron</hi> Knight, Sir <hi>Thomas Littleton,</hi> Sir <hi>Wingfield Bodenham,</hi> Sir <hi>Thomas Peyton,</hi> Sir <hi>10: Butler,</hi> Sir <hi>Rich: Norton, Nevile Smith, and</hi> Doctor <hi>Featly</hi> be admitted to Fine and Composition.</p>
+               <p>Resolved,</p>
+               <p>That it be referred to the Committee at <hi>Goldsmiths Hall,</hi> to <hi>Treat and Compound</hi> with the persons above named, and report their Fines to the House.</p>
+               <closer>
+                  <signed>H: Elsinge Cler. Par. Dom. Com.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Goldsmiths <hi>Hall.</hi> March 3. 1644.</head>
+               <p>THe names of divers Prisoners now in restraint, <milestone type="tcpmilestone" unit="unspecified" n="VIII"/> upon whom the Fines hereunder specified, are set and imposed by the Committee at <hi>Gold<g ref="char:EOLhyphen"/>smiths.</hi> Hall, according to an Order of the Honourable House of Commons, of the of <hi>Aug.</hi> 1644.</p>
+               <p>Sometimes Lord Major, committed to the Tower<note place="margin">Resolved Sir <hi>Richard Gurney</hi> Knight, 5000l.</note> by the Lords in Parliament, for his Contempt to the House in disobeying their Order, and by doing other things, whereby he shewed his disaffection to the Par<g ref="char:EOLhyphen"/>liamnt, whose Estate is under Sequestration.</p>
+               <pb n="6" facs="tcp:172892:6"/>
+               <p>These Gentlemen, if they were duly Sequestred, severely imprisoned, they would be willing to satisfi<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#murp" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Common wealth, and pay such Fines as shall be se<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pon them.</p>
+               <closer>
+                  <signed>JO: LEECH.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Martis, 4. Marcii 1644.</head>
+               <p>THe House resumed the Report from the Com<g ref="char:EOLhyphen"/>mittee <milestone type="tcpmilestone" unit="unspecified" n="IX"/> at <hi>Goldsmiths</hi> Hall, and resolved, &amp;c.</p>
+               <p>That this House doth <hi>approve and accept</hi> of 5000l. for the Fine of Sir <hi>Richard Curney,</hi> sometimes Lord Major of <hi>London,</hi> for discharge of his Delinquen<g ref="char:EOLhyphen"/>cy, and Sequestration of his Estate, and Imprison<g ref="char:EOLhyphen"/>ment.</p>
+            </div>
+            <div type="part">
+               <head>Die Lunae 2. Marcii, 1645.</head>
+               <p>MAster <hi>Ash</hi> reports the answer of Sir <hi>Richard</hi>
+                  <milestone type="tcpmilestone" unit="unspecified" n="X"/>
+                  <hi>Gurney,</hi> to the Committee of <hi>Goldsmiths</hi>-Hall, concerning the Fine of 5000l. set on by this House, that he obstinately refuses to pay the same.</p>
+               <closer>
+                  <signed>H: SCOBE. <hi>Cler. Par.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="7" facs="tcp:172892:6"/>
+               <head>To the Right Honourable Committee of Lords and Commons for Sequestrations.</head>
+               <head type="sub">The Humble Petition of Sir <hi>Richard Gurney,</hi> Knight.</head>
+               <opener>Sheweth,</opener>
+               <p>THat your Petitioner is a Prisoner in the Tower <milestone type="tcpmilestone" unit="unspecified" n="XI"/> of <hi>London,</hi> during the pleasure of the House of Peers, and thereupon supposing him to be a Delinquent; his Estate in <hi>London,</hi> the County of <hi>Wilts,</hi> and in other Counties where it lyes, is of late put under Sequestration, by the respective Committees of the severall Counties: And in particular, his Estate at <hi>Clare</hi> in <hi>Suffolke,</hi> and upon the edge of <hi>Essex,</hi> 40. Miles distant from <hi>London,</hi> is Sequestred by the Committee for <hi>Glocester,</hi> whose power by the Ordinance extends but 20. Miles from <hi>London.</hi>
+               </p>
+               <closer>
+                  <hi>Your Petitioner therefore humbly prayeth this Honou<g ref="char:EOLhyphen"/>rable Committee, to require the said Committee of <hi>Glocester,</hi> and other Committees of the Coun<g ref="char:EOLhyphen"/>ties, and places where his Estate lyes, to Certifie to this Honourable Committee, the grounds and cause of their Sequestring your Petitioners Estate, and to respit their proceedings, untill your Peti<g ref="char:EOLhyphen"/>tioner upon their Certificates, may be inabled to bring his Cause to hearing.</hi> And he shall pray, &amp;c.</closer>
+            </div>
+            <div type="part">
+               <pb n="8" facs="tcp:172892:7"/>
+               <head>Die Martis, 27. Ianuar. 1645. At the Committee of Lords and Commons for Sequestration.</head>
+               <p>UPon the Petition of Sir <hi>Richard Gurney</hi> Knight, <milestone type="tcpmilestone" unit="unspecified" n="XII"/> hereto annexed: It is thought fit and ordered that it be referred to Mr. <hi>Bradshaw,</hi> to peruse the said Petition, and the Orders of the Houses of Parli<g ref="char:EOLhyphen"/>ament, and to report the state of the Case to this Com<g ref="char:EOLhyphen"/>mittee; and the Clerke of this Committee is to enquire in the Clerkes bookes of both Houses, what Orders have beene made in the Petitioners Case.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>Iohn Wylde.</item>
+                        <item>Intr. R. Vaughan.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Sir <hi>Richard Gurneys</hi> Petition.</head>
+               <p>THe Petitioners offence and sentence appeares <milestone type="tcpmilestone" unit="unspecified" n="XIII"/> by the <hi>Acts of the Lords House,</hi> since which time the House of Commons accept of 5000. l. for discharge of his Delinquencie, Sequestration of his E<g ref="char:EOLhyphen"/>state and Imprisonment. And this I finde to bee the Case.</p>
+               <closer>
+                  <dateline>
+                     <date>17. Febr. 1645.</date>
+                  </dateline>
+                  <signed>Iohn Bradshaw.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Dei Martis, 9. March 1646.</head>
+               <head type="sub">At the Committee of Lords and Commons for Sequestrations.</head>
+               <p>IN the Case of Sir <hi>Richard Gurney</hi> Knight, It is order<g ref="char:EOLhyphen"/>ed <milestone type="tcpmilestone" unit="unspecified" n="XIV"/> that it be referred to the Committees of the seve<g ref="char:EOLhyphen"/>rall Countyes (by whom the Sequestration was
+<pb n="9" facs="tcp:172892:7"/> made) to examine the matter and cause of the Sequestra<g ref="char:EOLhyphen"/>tion, with the witnesses and proofes on both sides on Oath, giving the Petitioner the heads of his Charge to examine his witnesses upon, and to certifie the true state of the Case with the proofes to this Committee, sealed up within a moneth after notice hereof, and to deliver out no copies of the proofes. And it is further ordered, That the Committee at <hi>Goldsmiths Hall</hi> be desired to certifie whether the said Sir <hi>Richard Gurney</hi> hath exhi<g ref="char:EOLhyphen"/>bited any Petition to them for his composition.</p>
+               <closer>
+                  <signed>Vera Copia. Ex. per me R. Vaughan, Cler. Com.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Merc. 7. Apr. 1647.</head>
+               <head type="sub">At the Committee of Lords and Commons for Sequestrations.</head>
+               <p>IN the Case of Sir <hi>Richard Gurney</hi> Knight and Baro<g ref="char:EOLhyphen"/>net, <milestone type="tcpmilestone" unit="unspecified" n="XV"/> upon the severall Certificates from the Com<g ref="char:EOLhyphen"/>mittees in the severall Countyes, by whom the Se<g ref="char:EOLhyphen"/>questration was made: It is ordered that publication be thereof granted, if Mr. <hi>Bradshaw</hi> assent.</p>
+               <closer>
+                  <signed>Hen: Pelham.</signed>
+                  <dateline>I assent thereto, <date>9. <hi>Aprill</hi> 1647.</date>
+                  </dateline>
+                  <signed>Iohn Bradshaw.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="10" facs="tcp:172892:8"/>
+               <head>The Certificates. 15. <hi>December</hi> 1645.</head>
+               <head type="sub">At the Committee for Sequestrations <hi>London,</hi>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XVI"/> sitting at <hi>Cambden House.</hi>
+               </head>
+               <p>IT is this day ordered that nothing be done in examination of the Estate of Sir <hi>Richard Gurney</hi> Knight, untill further order of this Committee, in regard no cause hath yet appeared to them of any Se<g ref="char:EOLhyphen"/>questration to be made of and upon the same.</p>
+               <closer>
+                  <signed>
+                     <hi>Henry Linch</hi> Clerk to the said Committee.</signed>
+                  <signed>R. Vaughan.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>November 28. 1646. <milestone type="tcpmilestone" unit="unspecified" n="XVII"/>
+               </head>
+               <p>THese are to certifie, That the Case of Sir <hi>Rich: Gurney</hi> Knight, hath been assessed by the Asses<g ref="char:EOLhyphen"/>sors sitting at <hi>Haberdashers Hall, London,</hi> at the summe of one thousand pounds for the twentieth part of his Estate, reall and personall, by vertue of an Ordi<g ref="char:EOLhyphen"/>nance of Parliament of the 29. of <hi>November</hi> 1642. and for default of payment thereof his Estate and reve<g ref="char:EOLhyphen"/>nue hath beene sequestred according to the effect of the said Ordinance, and hath this day made and given pay<g ref="char:EOLhyphen"/>ment and satisfaction to the Committee of Lords and Commons for advance of money, for and concerning the said Assessement of the one thousand pounds, where<g ref="char:EOLhyphen"/>upon the said Assessement is now fully satisfied, and the Sequestration made for non-payment thereof taken off and discharged.</p>
+               <closer>
+                  <signed>
+                     <hi>Martin Dallison,</hi> Clerke to the said Committee.</signed>
+                  <signed>R. Vaughan.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="11" facs="tcp:172892:8"/>
+               <head>Goldsmiths <hi>Hall.</hi> Luna, 5. Apr. 1647.</head>
+               <p>THese are to certifie, that the 4. of <hi>March</hi> 1644. <milestone type="tcpmilestone" unit="unspecified" n="XVIII"/> there was a Fine of 5000 l. imposed by the Committee for compounding with Delin<g ref="char:EOLhyphen"/>quents sitting at <hi>Goldsmiths Hall</hi> upon Sir <hi>Richard Gurney,</hi> Knight and Baroner, which was reported to the House of Commons and accepted by them, as by the Orders thereupon may appeare. But the said Sir <hi>Rich: Gurney</hi> hath not exhibited any Petition to this Committee, nor any way submitted to the said Fine.</p>
+               <closer>
+                  <signed>
+                     <hi>George Leech,</hi> Seer to the said Committee.</signed>
+                  <signed>R. Vaughan.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>At the Committee of <hi>Wilts</hi> at <hi>Warmister, 31. March 1647.</hi>
+               </head>
+               <opener>
+                  <salute>Right Honourable,</salute>
+               </opener>
+               <p>ACcording to the directions of your Order of <milestone type="tcpmilestone" unit="unspecified" n="XIX"/> the 9. of this present <hi>March,</hi> We of the Commit<g ref="char:EOLhyphen"/>tee of <hi>Wilts</hi> doe humbly certifie, that some of us being in <hi>London</hi> before our comming to act in this County, understanding that Sir <hi>Richard Gurney,</hi> Knight and Baronet, was a Prisoner in the Tower of <hi>London,</hi> and that his Estate in and about the City was seque<g ref="char:EOLhyphen"/>stred: We did also sequester his Estate in this County, and have continued the same under Sequestration, but have received no other information or proofe of any
+<pb n="12" facs="tcp:172892:9"/> Delinquency against him: All which we humbly sub<g ref="char:EOLhyphen"/>mit to your grave considerations,</p>
+               <closer>And rest
+<signed>Your humble servants,
+<list>
+                        <item>Robert Browne,</item>
+                        <item>Tho: Bennet,</item>
+                        <item>I. Martin,</item>
+                        <item>Thomas Goddard,</item>
+                        <item>William Iesse.</item>
+                        <item>R. Vaughan.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Dated at <hi>Dorcet House</hi> aforesaid <hi>21. Apr. 1647.</hi>
+               </head>
+               <opener>
+                  <salute>Right Honourable,</salute>
+               </opener>
+               <p>IN obedience to your Lordships Order of the 9. of <milestone type="tcpmilestone" unit="unspecified" n="XX"/> this instant <hi>April,</hi> whereby we are to certifie the causes and grounds of Sequestration of the E<g ref="char:EOLhyphen"/>state of Sir <hi>Richard Gurney:</hi> We of the Committee of <hi>Gloucester, Hereford,</hi> and other Counties, sitting at <hi>Dorces House</hi> in Channon Row <hi>Westminster,</hi> doe certifie your Lordships, that the Cause whereof we summoned the Tenants of Sir <hi>Richard Gurney</hi> at <hi>Stoak,</hi> and <hi>Ashton,</hi> in the Countyes of <hi>Suff.</hi> and <hi>Essex,</hi> to pay their Rents to the use of the Common-wealth, was an impeachment of the House of Commons, <hi>Iuly</hi> the 5. 1642. and a<note place="margin">See Fig. <hi>I. II. VII. IX.</hi> &amp; <hi>X.</hi>
+                  </note> Judgement of the House of Peeres: thereupon the 12. of <hi>August</hi> following, and two Votes of the House of Commons, the one of the 23. of <hi>October,</hi> 1644. when it was resolved that he should be admitted to his Fine and Composition; the other of the 4. of <hi>March</hi> 1644. when it was resolved that 5000 l. be accepted for dis<g ref="char:EOLhyphen"/>charge of his Delinquency, and Sequestration of his E<g ref="char:EOLhyphen"/>state and Imprisonment; the severall copies whereof are here inclosed, and his refusall to pay the said Fine, as by the report of Mr. <hi>Iohn Ash</hi> made to the House of
+<pb n="13" facs="tcp:172892:9"/> Commons, the Copy whereof is also inclosed appeares. All which we humbly submit to your Lordships judg<g ref="char:EOLhyphen"/>ments.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>Nath: Stephens.</item>
+                        <item>Tho: Hodges.</item>
+                        <item>Io: Stephens.</item>
+                        <item>R. Vaughan.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>The Discharges.</head>
+               <head type="sub">At the Committee for <hi>Gloucester,</hi> sitting in the Inner <milestone type="tcpmilestone" unit="unspecified" n="XXI"/> Court of Wards, <hi>Westm. 16. Febr. 1647.</hi>
+               </head>
+               <p>WHereas upon discovery made to this Com<g ref="char:EOLhyphen"/>mittee, That Sir <hi>Richard Gurney,</hi> Knight and Baronet, was in his life-time a Delin<g ref="char:EOLhyphen"/>quent, and that his Estate was sequestred in severall places, and that he had received a Judgement in the Lords house for putting the Commission of Array in Execution, and for other Crimes by him committed, for which he was committed Prisoner to the Tower of <hi>London.</hi> And forasmuch as the said Sir <hi>Richard Gurney</hi> is since deceased, and that it appears to this Committee, that his Sequestration is taken off in other places. It is therefore ordered, that the seizure and restraint made by this Committee of his Rents in <hi>Stoake,</hi> and <hi>Ashen,</hi> in the Countyes of <hi>Essex</hi> and <hi>Suffolk</hi> shall be, and is there<g ref="char:EOLhyphen"/>by taken off and discharged.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>Tho: Pury.</item>
+                        <item>Nath: Stephens.</item>
+                        <item>Tho: Hodges.</item>
+                        <item>R. Vaughan.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="14" facs="tcp:172892:10"/>
+               <head>11. <hi>August</hi> 1649.</head>
+               <head type="sub">At the Committee of Parliament for removing of Obstructions in the sale of <hi>Deanes</hi> and <hi>Chapters</hi> Lands.</head>
+               <p>UPon reading this day of the report of Colonel <milestone type="tcpmilestone" unit="unspecified" n="XXII"/>
+                  <hi>Edmund Harvey,</hi> made according to order of the Committee for removing of Obstructions in the sale of late Bishops Lands, of the 21. of <hi>Iune</hi> last, grounded upon the Petition of Sir <hi>Iohn Pettus, Henry Samford,</hi> and <hi>Humphrey Bedingfield,</hi> touching the pos<g ref="char:EOLhyphen"/>session and Rent of the House called <hi>Gurney House, scitu<g ref="char:EOLhyphen"/>ate</hi> in the Old Jury <hi>London,</hi> wherein report is made, that the said Col. <hi>Harvey</hi> conferring with the Trustees for sale of Bishops Lands, concerning the premisses, they did finde that the possession of the said House cannot (without prejudice to the State) be delivered to Mr. <hi>Iohn Frederick,</hi> who purchased the same of the said Petitio<g ref="char:EOLhyphen"/>ners, and that thereupon hee, the said Colonel <hi>Harvey,</hi> and the said Trustees had treated with the said Mr. <hi>Frederick</hi> for the Rent to be received and paid for the said House, out of whose demands the said Trustees conceived the summe of two hundred pounds <hi>per ann.</hi> to be a competent Rent to be paid unto him the said Mr. <hi>Federick</hi> or his Assignes, for the premisses, from the time of his purchase thereof, <hi>viz.</hi> from the first of <hi>May</hi> 1648. untill <hi>Midsummer</hi> last past, and for the growing Rents thereof from thence forth, the yearely Rent of 200 l. <hi>per ann.</hi> for so long as the said House shall be im<g ref="char:EOLhyphen"/>ployed for the sales of Bishops, Deans, and Chapters Lands, and that the arreares for the said House due to the said Petitioners from the 20. of <hi>November</hi> 1646.
+<pb n="15" facs="tcp:172892:10"/> to the said first of <hi>May</hi> 1648. aforesaid, be allowed un<g ref="char:EOLhyphen"/>to them the said Petitioners, after the rate of 120 l. <hi>per ann.</hi> It is this day ordered, that the Trustees for sale of Deans and Chapters Lands be hereby required and authorized to grant and issue forth their warrants to the Treasurers for sale of the said Lands, to pay unto the said <hi>Ioh: Fredrick,</hi> or to his Assigne or Assignes, for and in the consideration of the said House, and growing Rent thereof, during the time that the said House shall be imployed in the service of the State as aforesaid, the yearely summe of two hundred pounds quarterly, <hi>viz.</hi> upon the 29. day of <hi>Septemb.</hi> next, the summe of fifty pound, upon the 25. of <hi>December</hi> following the summe of fifty pounds, as the same shall from time to time grow due. And the same Treasurers are hereby requi<g ref="char:EOLhyphen"/>red and authorized upon such severall Warrants to pay the same during the said time accordingly, and the re<g ref="char:EOLhyphen"/>ceipt of the said <hi>Ioh: Frederick</hi> or his Assigne or Assignes shall from time to time be a sufficient discharge unto the said Treasurers in that behalfe: and it is further or<g ref="char:EOLhyphen"/>dered that the said Trustees be hereby required and au<g ref="char:EOLhyphen"/>thorized at the charge of the State, to keepe the said House in good repaire during the said imployment, and to leave the same without defacing thereof.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>Io: Field.</item>
+                        <item>Io: Goodwin.</item>
+                        <item>Ben: Valentine.</item>
+                        <item>Francis Allein.</item>
+                        <item>Io: Iones.</item>
+                     </list>
+                  </signed> A true Copy examined by
+<signed>Ioh: Firker.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="16" facs="tcp:172892:11"/>
+               <head>City of <hi>London,</hi> Sir <hi>Richard Gurney</hi> Knight.</head>
+               <p>A Warrant issued forth to restraine Rents the 19. <milestone type="tcpmilestone" unit="unspecified" n="XXIII"/> of <hi>Aprill</hi> 1644. For that the said Sir <hi>Richard Gurney</hi> was committed a Prisoner to the Tower of <hi>London,</hi> seiz'd the rents of a Tenement in the Old Jury, <hi>Lond▪</hi> of the Annuall Rent of twelve pounds.</p>
+               <p>The Sequestration discharged by the Committee of <hi>London</hi> the 25. of <hi>December</hi> 1645. for that no cause ap<g ref="char:EOLhyphen"/>peared to continue the same, and the twelve pounds re<g ref="char:EOLhyphen"/>ceived for a yeares rent paid over to the Committee of <hi>Haberdashers Hall,</hi> who had seiz'd all the rest of the Te<g ref="char:EOLhyphen"/>nements in the Old Jury.</p>
+               <closer>The above written is what is certified in the List of the Names of all such persons who have been for<g ref="char:EOLhyphen"/>merly sequestred by the Committee for Sequestrati<g ref="char:EOLhyphen"/>on in the City of <hi>London,</hi> concerning Sir <hi>Rich: Gurney;</hi> which said List is subscribed by
+<signed>
+                     <list>
+                        <item>
+                           <hi>Tho: Martin</hi> Clerk,</item>
+                        <item>and <hi>Jo: Fox.</hi>
+                        </item>
+                     </list>
+                  </signed>
+                  <dateline>Dated <date>
+                        <hi>22. August.</hi>
+                     </date>
+                  </dateline>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Ian. 14. 1647. By the Committee of Parliament for the County of <hi>Wilts.</hi>
+               </head>
+               <p>WHereas the Estate of Sir <hi>Richard Gurney</hi> in the County of <hi>Wilts,</hi> was sequestred by <milestone type="tcpmilestone" unit="unspecified" n="XXIV"/> us, he being now deceased, we knowing no cause for the continuance thereof doe thinke fit <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o
+<pb n="17" facs="tcp:172892:11"/> discharge it, he having paid his fifth and twentieth part, as appeares by Certificate from <hi>Haberdashers Hall.</hi>
+               </p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>R. Vaughan.</item>
+                        <item>Io: Goddard,</item>
+                        <item>Robert Browne,</item>
+                        <item>Edward Martyn,</item>
+                        <item>Gabr: Martyn,</item>
+                        <item>Thomas Goddard.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>The second proceedings of <hi>Goldsmiths</hi>-Hall, By the Committees for Compounding, &amp;c. <hi>16. July 1650.</hi>
+               </head>
+               <p>IT is ordered that the Heirs and Executors of Sir <milestone type="tcpmilestone" unit="unspecified" n="XXV"/>
+                  <hi>Richard Gurney</hi> deceased, doe satisfie this Commit<g ref="char:EOLhyphen"/>tee within twenty dayes after notice hereof, why the fine of 5000 l. imposed upon the said Sir <hi>Rich: Gurney</hi> is not paid into the Treasury of this Committee.</p>
+               <closer>
+                  <signed>Io: Leech.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>The Case reported to the <hi>Parliament,</hi> Tuesday the 5. of August 1651.</head>
+               <p>A Certificate from the Commissioners for com<g ref="char:EOLhyphen"/>pounding <milestone type="tcpmilestone" unit="unspecified" n="XXVI"/> of the 6. of <hi>December▪</hi> 1650. was this day read, and the Cases of Sir <hi>Richard Gurney,</hi> and Mr. <hi>Thompson,</hi> wherein the Commissioners desire directions from the Parliament; the report of the Case of Sir <hi>Richard Gurney</hi> was read; <hi>Viz.</hi>
+               </p>
+               <p>According to the Order of the 20. of <hi>Septemb.</hi> 1650. in the case of the Executors of Sir <hi>Richard Gurney,</hi> Knight and Baronet deceased, touching the Fine of 5000 l. imposed upon him by the Parliament, we * find,<note place="margin">M. <hi>Reading</hi> M. <hi>Brereton</hi>
+                  </note> That the 5. of <hi>Iuly</hi> 164<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. the Honourable House of Commons brought in an Impeachment in the House of
+<pb n="18" facs="tcp:172892:12"/> Lords against Sir <hi>Richard Gurney,</hi> for that he, on or about the last of <hi>Iune</hi> 1642. (being then Lord Major of <hi>London</hi>) in severall places of the said City unlawfully and maliciously caused Proclamation to be made for the putting in execution the Commission of Array, ten<g ref="char:EOLhyphen"/>ding to the raising of Forces against the Parliament, and to the subversion of the Lawes and peace of the King<g ref="char:EOLhyphen"/>dome.</p>
+               <p>For which they impeached him in the name of the House of Commons, and of all the Commons of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> of high crimes and misdemeanours; and saving to themselves all liberties and advantages of exhibiting all other accusations against him; they desired he may be called to a speedy answer in the presence of the Com<g ref="char:EOLhyphen"/>mons. The 12. of <hi>August</hi> 1642. the Lords in Parlia<g ref="char:EOLhyphen"/>ment assembled, reciting that whereas Sir <hi>Rich. Gurney,</hi> Knight and Baronet, Lord Major of the City of <hi>London,</hi> hath been impeached by the House of Commons, for causing Proclamation to be made for the putting in exe<g ref="char:EOLhyphen"/>cution the Commission of Array, and for the framing of two false and scandalous Petitions, to set division be<g ref="char:EOLhyphen"/>tweene his Majesty and the Parliament, and Parliament and the City, and for imprisoning certaine Apprentices, who had framed a Petition to the Parliament, and for not punishing or proceeding against certaine Ryoters, or misdoers within the City of <hi>London,</hi> acted in or about the 2. of <hi>February</hi> 1641. and for refusing or neglecting to call a Common Councell, for the good and safety of the said City and Kingdome (being thereunto com<g ref="char:EOLhyphen"/>manded by the authority of both Houses of Par<g ref="char:EOLhyphen"/>liament.)</p>
+               <p>The said Lords having taken the said Charges into due consideration, doe finde the said Sir <hi>Richard Gurney,</hi>
+                  <pb n="19" facs="tcp:172892:12"/> Lord Major of the City of <hi>London,</hi> guilty of causing the said Proclamation for putting the Commission of Ar<g ref="char:EOLhyphen"/>ray in execution to be published, tending to the distur<g ref="char:EOLhyphen"/>bance of the peace of the Kingdome, and of not suppres<g ref="char:EOLhyphen"/>sing the ryots and misdemeanors, and not calling a Common Councell, as hee was by Order of Parlia<g ref="char:EOLhyphen"/>ment required; and for these Offences, the said High Court did award and judge, First, that the said Sir <hi>Richard Gurney</hi> should be no longer Major of the City of <hi>London.</hi> Secondly, that he should be hereafter un<g ref="char:EOLhyphen"/>capable to beare any Office in the City of <hi>London.</hi> Thirdly, that he should be uncapable to beare or re<g ref="char:EOLhyphen"/>ceive any further Honour thereafter. Fourthly, that he should be imprisoned in the Tower of <hi>London,</hi> during the pleasure of that House. And accordingly he was put out from being Lord Major, and committed to the Tower.</p>
+               <p>That the 29. of <hi>November</hi> 1642. the Ordinance for sitting of the Committee for Advance, and for Assesse<g ref="char:EOLhyphen"/>ment of the fifth and twentieth part passed both Houses.</p>
+               <p>That in <hi>December</hi> 1642. (Sir <hi>Richard Gurney</hi> being in prison) was assessed 1000 l. for his twentieth part at <hi>Haberdashers▪</hi> Hall, and for default of payment thereof, his personall Estate at <hi>Gurney</hi> House <hi>London,</hi> was sequestred and sold in <hi>February</hi> 1642. and <hi>Gurney</hi>-House, and Tenements adjoyning, and other his Estate was sequestred in 1642. and the profits received untill the 20. of <hi>November</hi> 1646.</p>
+               <p>That the first of <hi>April</hi> 1643. the Ordinance for Se<g ref="char:EOLhyphen"/>questration of Papists and Delinquents, passed both Houses.</p>
+               <p>That the 19. of <hi>April</hi> 1644. the Committee for Se<g ref="char:EOLhyphen"/>questrations
+<pb n="20" facs="tcp:172892:13"/> for <hi>London</hi> issued out a warrant to restraine the rents of Sir <hi>Richard Gurney,</hi> for that he was com<g ref="char:EOLhyphen"/>mitted a prisoner to the Tower of <hi>London.</hi>
+               </p>
+               <p>That the 29. of <hi>Iuly</hi> 1644. the Commons in Parlia<g ref="char:EOLhyphen"/>ment ordered the Committee of <hi>Goldsmiths</hi> Hall to con<g ref="char:EOLhyphen"/>sider of all prisoners, whose Estates are sequestred, and to require a List of them from severall persons that had the custody of them, and to consider of raising moneys by compounding with them, and to present their opini<g ref="char:EOLhyphen"/>ons upon the whole matter to the House.</p>
+               <p>The 30. of <hi>Iuly</hi> 1644. The Committee of <hi>Goldsmiths</hi>-Hall required the Lieutenant of the Tower (amongst others) to certifie the names of such prisoners of quality under his custody, whose Estates were sequestred, that by order of <hi>Goldsmiths</hi>-Hall, the 20. of <hi>August</hi> and 27. of <hi>August</hi> 1644. a Sub▪ Committee was appointed to consider of the Estates and Delinquencies of the severall persons returned to them, and first to consider of the most wealthy and able persons, and to present the Fines fit to be set on them.</p>
+               <p>The 23. of <hi>October</hi> 1644. it was resolved by the House upon the question, that Sir <hi>Richard Gurney,</hi> and divers other persons therein named, be admitted to Fine and Composition, and that it be referred to the Committee at <hi>Goldsmiths</hi>-Hall to treat and compound with the said persons, and to report their Fines to the House.</p>
+               <p>The 3. of <hi>March</hi> 1644. the Committee of <hi>Goldsmiths</hi>-Hall presented to the House (amongst other things) the names of divers persons, upon whom Fines were set by the Committee at <hi>Goldsmiths</hi>-Hall, according to an Or<g ref="char:EOLhyphen"/>der of the House of <hi>August 1644. viz.</hi>
+               </p>
+               <p>Sir <hi>Richard Gurney</hi> Knight, sometime Lord Major, committed to the Tower by the Lords in Parliament,
+<pb n="21" facs="tcp:172892:13"/> for his contempt to the House, and disobeying their Or<g ref="char:EOLhyphen"/>der,<note place="margin">Resolved Fine acce<g ref="char:EOLhyphen"/>pted.</note> and doing such other things whereby he shewed his disaffection to the Parliament; whose Estate is under Sequestration.</p>
+               <p>That the 4. of <hi>March</hi> 1644. the House did approve and accept of 5000 l. for the Fine of Sir <hi>Richard Gurney,</hi> for discharge of his Delinquency, and Sequestration of his Estate and Imprisonment.</p>
+               <p>The 15. of <hi>December</hi> 1645. the said Committee for Sequestrations in <hi>London</hi> ordered the said Sequestration to be discharged, for that no cause of Sequestration ap<g ref="char:EOLhyphen"/>peared to them, and the 12 l. by them received was assigned over to the Committee of <hi>Haberdashers</hi> Hall, who had seized all the rest of the Tenements.</p>
+               <p>That the 2. of <hi>March</hi> 1645. Mr. <hi>Iohn Ash</hi> reported to the House the answer of Sir <hi>Richard Gurney</hi> to the Committee at <hi>Goldsmiths</hi>-Hall, concerning the Fine▪ of 5000 l. set upon him by the House, that he obstinately refuseth to pay the same.</p>
+               <p>That the 20. of <hi>November</hi> 1646. by order of the Committee for advance and reciting the former assessement of 1000 l. for the 20. part, and the Seque<g ref="char:EOLhyphen"/>stration for non-payment thereof; and that the said Sir <hi>Richard Gurney</hi> had given satisfaction for the same, the said Assessment and Sequestration for non-payment thereof were taken off and discharged, and the said E<g ref="char:EOLhyphen"/>state hath been free from Sequestration ever since.</p>
+               <p>That upon M. <hi>Ash</hi> his report of the 2. of <hi>March</hi> 1645. aforementioned, of Sir <hi>Richard Gurneys</hi> obstinate refu<g ref="char:EOLhyphen"/>sall to pay his Fine, we doe not finde there was any fur<g ref="char:EOLhyphen"/>ther resolution in the Case.</p>
+               <closer>
+                  <signed>H: Scobell Cler. Parl.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="22" facs="tcp:172892:14"/>
+               <head>The Case referred, Tuesday 5. August 1651.</head>
+               <p>REsolved by the Parliament, That this report from <milestone type="tcpmilestone" unit="unspecified" n="XXVII"/>
+                  <hi>Goldsmiths</hi>-Hall, concerning Sir <hi>Richard Gurney,</hi> be referred to a Committee to examine the busi<g ref="char:EOLhyphen"/>nesse and heare all parties concerned, and to state the whole matter of Fact and report it to the House▪ (<hi>viz.</hi>) Unto</p>
+               <list>
+                  <item>Sir <hi>Gilbert Pickering.</hi>
+                  </item>
+                  <item>Mr. <hi>Love.</hi>
+                  </item>
+                  <item>Mr. <hi>Bond.</hi>
+                  </item>
+                  <item>Mr. <hi>Moyle.</hi>
+                  </item>
+                  <item>Mr. <hi>Allein.</hi>
+                  </item>
+                  <item>Lord <hi>Grey.</hi>
+                  </item>
+                  <item>Mr. <hi>Stephens.</hi>
+                  </item>
+                  <item>Mr. <hi>Nevill.</hi>
+                  </item>
+                  <item>Mr. <hi>Marten.</hi>
+                  </item>
+                  <item>Mr. <hi>Trenchard.</hi>
+                  </item>
+                  <item>Mr. <hi>Carew.</hi>
+                  </item>
+                  <item>Mr. <hi>Hodges.</hi>
+                  </item>
+                  <item>Lord <hi>Whitlock.</hi>
+                  </item>
+                  <item>Col. <hi>Lister.</hi>
+                  </item>
+                  <item>Alderman <hi>Atkins.</hi>
+                  </item>
+                  <item>Mr. <hi>Hevenningham.</hi>
+                  </item>
+                  <item>Mr. <hi>Dormen.</hi>
+                  </item>
+                  <item>Sir <hi>Henry Heymen.</hi>
+                  </item>
+                  <item>Col. <hi>Fielder.</hi>
+                  </item>
+                  <item>Lord <hi>Lister.</hi>
+                  </item>
+                  <item>Col. <hi>Morley.</hi>
+                  </item>
+                  <item>Mr. <hi>Challoner.</hi>
+                  </item>
+                  <item>Mr. <hi>Whittacre.</hi>
+                  </item>
+                  <item>Mr. <hi>Oldesworth.</hi>
+                  </item>
+               </list>
+               <p>Or any five of them:</p>
+               <p>And Col. <hi>Fielder</hi> is to take care of it.</p>
+               <closer>
+                  <signed>Hen: Scobell Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="23" facs="tcp:172892:14"/>
+               <head>The report of the Committee of <hi>Parliament,</hi> In the Case of Sir <hi>Richard Gurney,</hi> besides what is mentioned in the report from <hi>Goldsmiths</hi>-Hall it appeares,</head>
+               <p>THat after the Estate of Sir <hi>Richard Gurney</hi> was <milestone type="tcpmilestone" unit="unspecified" n="XXVIII"/> discharged of Sequestration by the Committee at <hi>Haberdashers</hi>-Hall, <hi>November</hi> 20. 1646. The 9. of <hi>March</hi> following, he obteined (by order of the House of Lords) liberty to repaire to any of his houses, upon security to render himselfe when required.</p>
+               <p rend="indent">
+                  <hi>But severall Committees in the Country, notwith<g ref="char:EOLhyphen"/>standing the said discharge, continuing Sequestrati<g ref="char:EOLhyphen"/>on upon his Estate.</hi>
+               </p>
+               <p>The said 9. of <hi>March</hi> 1646▪ he obteined order from the Committee of Lords and Commons to the said Committee in the Country, to certifie the cause of Se<g ref="char:EOLhyphen"/>questration, and to the Committee at <hi>Goldsmiths</hi>-Hall to certifie whether any Petition was exhibited to them for compounding.</p>
+               <p rend="centerJustify">
+                  <hi>In pursuance thereof:</hi>
+               </p>
+               <p>The 31. of <hi>March</hi> 1647. the Committee of <hi>Wilts</hi> certified, that they hearing Sir <hi>Richard Gurney</hi> was se<g ref="char:EOLhyphen"/>questred in <hi>London,</hi> and a Prisoner in the Tower, there<g ref="char:EOLhyphen"/>upon sequestred him, and knew no other cause.</p>
+               <p>The 5. of <hi>April</hi> 1647. the Committee at <hi>Goldsmiths</hi>-Hall certified the Fine of 5000 l. set as aforesaid, but that Sir <hi>Richard Gurney</hi> had not petitioned to that Com<g ref="char:EOLhyphen"/>mittee, nor submitted to the said Fine.</p>
+               <p>
+                  <hi>April</hi> 21. 1647. The Committee of <hi>Gloucester</hi> (being quickned thereto by a speciall Order) certified the cause of the Sequestration to be the impeachment and sen<g ref="char:EOLhyphen"/>tence<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="24" facs="tcp:172892:15"/> In 1642. and setting of the said Fine in 1644.</p>
+               <p>Upon returne of the Certificates, Order passed for publication in <hi>April.</hi> 1642. and for hearing in <hi>May</hi> 1647. but the Committee ceasing to act, and Sir <hi>Rich: Gurney</hi> dying soone after, the hearing never passed.</p>
+               <p>But Certificates of the Discharge at <hi>Haberdashers</hi> Hall being produced; the Committee of <hi>Wilts Ianuary</hi> 14. 1647. and the Committee of <hi>Gloucest. 16. Febr.</hi> 1647. discharged the said Sequestration.</p>
+               <p rend="centerJustify">
+                  <hi>It further appeares,</hi>
+               </p>
+               <p>That Sir <hi>Richard Gurney</hi> by Deed, dated <hi>Iune</hi> 7. 1641. and 15. <hi>Iuly</hi> 1641. conveyed his Lands and <hi>Gurney</hi>-House to Trustees to be disposed for payment of Debts and Legacies, as by his last Will he should declare.</p>
+               <p>That by his Will proved, dated 29. <hi>September</hi> 1647. he injoynes his Trustees and Executors to sell the said Lands, and House, for the payment of his Debts and Legacies.</p>
+               <p>That in execution of the said Will, and Trust, the Executors and Trustees sold all the said Lands (as by the Deeds appeare) before the end of <hi>October</hi> 1649.</p>
+               <p>That the 16. of <hi>Iuly</hi> 1650. the Committe at <hi>Gold<g ref="char:EOLhyphen"/>smiths</hi>-Hall issued their Summons to the Executors, to shew cause why they should not pay the 5000 l. Fine.</p>
+               <p>That the reall Estate being sold as aforesaid, for a<g ref="char:EOLhyphen"/>bout 17000. and not more (as appeares by the Deedes) the Executors paid (as by affirmation of Sir <hi>Iohn Pettus,</hi> one of the said Trustees, and Executors likewise ap<g ref="char:EOLhyphen"/>peares) for Funerall Charges, just and ancient Debts, Legacies, and necessary charges, above 28000 l. and that before the said Summons, or any demand of the said 5000 l. Fine; and are indebted for that Estate a<g ref="char:EOLhyphen"/>bove 4000 l. which as yet the Estate is not like to satis<g ref="char:EOLhyphen"/>fie,
+<pb n="25" facs="tcp:172892:15"/> (not including the said 4000 l. the remaining Estate, except 11 l. <hi>per ann.</hi> and a desperate debt upon a Mor<g ref="char:EOLhyphen"/>gage) being due upon bond from severall persons, most of them Prisoners, either in the Upper Bench, or Fleet, of which debts neither principall or interest hath beene paid these ten yeares.</p>
+               <p rend="centerJustify">
+                  <hi>And lastly it appeares,</hi>
+               </p>
+               <p>That out of Sir <hi>Richard Gurneys</hi> Estate, the Parlia<g ref="char:EOLhyphen"/>ment hath beene advantaged these particular summes, <hi>viz.</hi> Five hundred pounds lent to <hi>Ireland,</hi> one thousand pounds to <hi>Haberdashers</hi>-Hall for his twentieth part, one thousand two hundred pounds received by the Committee for <hi>Gloucest.</hi> being a Debt upon a Morgage sequestred by them, two thousand pound lost by the ruine of <hi>Chawfield</hi>-House in <hi>Wilts,</hi> and for Timber cut downe, and employed for that and other of the Parlia<g ref="char:EOLhyphen"/>ments Garrisons.</p>
+               <p>Besides 2000 l. lost in goods, upon seizure for the fifth and twentieth part, which being assessed at 2000 l. he neglected to pay, (as is alledged) because he was as<g ref="char:EOLhyphen"/>sessed in his Ward but at 800 l.</p>
+               <p>And 1500 l. lost, as is likewise alledged by the said Sir <hi>Iohn Pettus,</hi> which he is able to prove by the under<g ref="char:EOLhyphen"/>sale of <hi>Gurney</hi>-House, by reason the State had the use of Sir <hi>Richard</hi> paying before the purchase 300 l. <hi>per ann.</hi> but the Committee of Parliament ordered but 200 l. <hi>per ann.</hi> to him that purchased it of the Executors (as by the Order appears.) Deted the 11. of <hi>August</hi> 1649.</p>
+            </div>
+            <div type="part">
+               <head>Friday 29. August 1651.</head>
+               <p>Ordered that Collonel <hi>Martin</hi> be desired to make this Report with the former.</p>
+               <closer>
+                  <signed>Fi: Kirk.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="26" facs="tcp:172892:16"/>
+               <head>Wednesday 3. Novemb. 1652.</head>
+               <p>ORdered by the Parliament, That it be referred <milestone type="tcpmilestone" unit="unspecified" n="XXIX"/> to the Commissioners for Compounding, forthwith to levy the money due upon the Fine imposed upon Sir <hi>Rich: Gurney</hi> by Order of Parliament.</p>
+               <closer>
+                  <signed>Hen: Scobel Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>By the Commissioners for Compounding, <hi>&amp;c.</hi> 4. November 1652.</head>
+               <p>IN pursuance of the Order of Parliament above <milestone type="tcpmilestone" unit="unspecified" n="XXX"/> written. It is ordered that <hi>Thomas</hi> Lord <hi>Richardson,</hi> and Sir <hi>Iohn Pettus,</hi> Executors to the said Sir <hi>Rich: Gurney</hi> (in right of their Wives) do pay to the Treasurers at <hi>Goldsmiths</hi>-Hall, the moneys due upon the said Fine, within seven dayes after receipt hereof: Otherwise we shall proceed to levy the same according to the directi<g ref="char:EOLhyphen"/>of the said Order of Paliament.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>
+                           <hi>Inter.</hi> S. 382. <hi>Io: Leech.</hi>
+                        </item>
+                        <item>Sam. Moyer, Ar: Squib.</item>
+                        <item>Rich: Moore, Io: Russells.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>By the Commissioners for Compounding, <hi>&amp;c.</hi> 25. Ianuary 1652.</head>
+               <p>UPon reading an Order of Parliament of the 3. of <hi>November</hi> last, for levying of the Fine impo<g ref="char:EOLhyphen"/>sed formerly upon Sir <hi>Richard Gurney,</hi> and our <milestone type="tcpmilestone" unit="unspecified" n="XXXI"/> Order of the fourth of the same <hi>Nov.</hi> made thereupon.</p>
+               <p>
+                  <hi>Resolved,</hi>
+               </p>
+               <p>That the said Fine be accordingly levyed, and Let<g ref="char:EOLhyphen"/>ters be sent to the Comissioners for Sequestrations in the
+<pb n="27" facs="tcp:172892:16"/> severall Counties, where the said Sir <hi>Richard Gurney</hi> had any Estate, either reall or personall, to order and require them forthwith to proceed to levy the same upon such Estate, and returne the money which they shall thereup<g ref="char:EOLhyphen"/>on receive into the Treasury at <hi>Goldsmiths</hi>-Hall.</p>
+               <p>A true Copy. 9. <hi>Mar.</hi> 1652.</p>
+               <closer>
+                  <signed>Ioh: Leech.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Brevials exhibited to Parliament, upon the Order of <hi>Nov. 3. 1652.</hi> The Case of Sir <hi>Richard Gurney,</hi> Truly Stated by his <hi>EXECVTORS.</hi>
+               </head>
+               <p>IN 1642. Sir <hi>Richard Gurney</hi> was (for certaine misde<g ref="char:EOLhyphen"/>meanours)<milestone type="tcpmilestone" unit="unspecified" n="XXXII"/> Sentenced to be Imprisoned in the Tower during pleasure. But no Fine.</p>
+               <p>In 1643. he was Sequestred, for not paying his twen<g ref="char:EOLhyphen"/>tieth part.</p>
+               <p>In 1644. the Committee of <hi>Goldsmiths</hi>-Hall being authorized to treat with him, offered him freedome from his Imprisonment and Sequestration for 5000 l. Fine, which he refused.</p>
+               <p>In 1645. his refusall to accept that offer was Reported to the Parliament, and nothing Ordered thereon.</p>
+               <p>In 1646. he paid his twentieth part, and was dischar<g ref="char:EOLhyphen"/>ged of Sequestration.</p>
+               <p>In 1647. he dyed a Prisoner, since which his Execu<g ref="char:EOLhyphen"/>tors have disposed his whole Estate, to pay Debts and Legacies.</p>
+               <p>In 1650. the Executors were summoned by the Committee of <hi>Goldsmiths</hi>-Hall to shew cause why they should not pay the said 5000 l. and upon Cause
+<pb n="28" facs="tcp:172892:17"/> shewne, the Case was Ordered to be Reported to the Parliament.</p>
+               <p>In 1651: the Parliament referred the Case to 24. of their Members, or any five of them. They examined the Case, and Ordered Collonel <hi>Martin</hi> to Report the same.</p>
+               <p>In 1652. the Report not being heard, the Parliament supposing that a Fine was part of his Sentence, and im<g ref="char:EOLhyphen"/>posed on him for Delinquency, Ordered the same to be levyed.</p>
+               <p>Whereas,
+<list>
+                     <item>1. <hi>He was never judged a Delienquent▪</hi>
+                     </item>
+                     <item>2. <hi>He was never Sequestred for Delinquency.</hi>
+                     </item>
+                     <item>3. <hi>No Fine was imposed at, or since his said Sentence.</hi>
+                     </item>
+                     <item>4. <hi>His whole Estate being free from Sequestration, and the charge of any Fine, is disposed of by his Execu<g ref="char:EOLhyphen"/>tors.</hi>
+                     </item>
+                     <item>5. <hi>Yet for his misdemeanours, besides 5. yeares imprison<g ref="char:EOLhyphen"/>ment, he was damnified</hi> 25000 l.</item>
+                     <item>6. <hi>And the Parliament hath received out of his Estate for his twentieth part and otherwise,</hi> 7500 l. <hi>part whereof was voluntarily lent.</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div type="part">
+               <head>Further Proceedings concerning the said CASE. <milestone type="tcpmilestone" unit="unspecified" n="XXXIII"/>
+               </head>
+               <p>IN <hi>Decemb.</hi> 1652. The Parliament being informed, That there was a Report in the Case of Sir <hi>Richard Gurney</hi>) depending before them, and not heard, when they Ordered the said Fine to be levyed; Were pleased then, and since, to appoint four severall dayes for hearing the said Report.</p>
+               <pb n="29" facs="tcp:172892:17"/>
+               <p>But in regard the Parliament hath not heard the said Case, nor suspended the execution of the said Order un<g ref="char:EOLhyphen"/>till Hearing, The Commissioners for Sequestration have issued out Orders to Sequester all the Houses and Lands which were Sir <hi>Richard Gurneys,</hi> long since sold, and the Money disposed, as aforesaid.</p>
+               <p>Whereby,</p>
+               <p>
+                  <hi>The Purchasers are disturbed in their Possessions, and the Executors ingaged in Suits and Perplexities.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>The Case of Sir <hi>Richard Gurney,</hi> As to the Act of Pardon.</head>
+               <p>THe Act of Pardon acquits, &amp;c. All Sequestrati<g ref="char:EOLhyphen"/>ons, <milestone type="tcpmilestone" unit="unspecified" n="XXXIV"/> Penalties, summes of Money, &amp;c. except such Lands, Tenements &amp;c. which stood actu<g ref="char:EOLhyphen"/>ally Sequestred, <hi>December</hi> 1. 1651. and all summes of Money due upon Composition.</p>
+               <p n="1">1. Now it appeares that no part of his Estate stood actually Sequestred in <hi>December,</hi> 1651. but was discharged three years before.</p>
+               <p n="2">2. That the said 5000. l. was not due upon Composi<g ref="char:EOLhyphen"/>tion, he never submitting to any Fine.</p>
+            </div>
+            <div type="part">
+               <head>Tuesday the 8. of March, 1652.</head>
+               <p>ORdered by the Parliament, That the businesse <milestone type="tcpmilestone" unit="unspecified" n="XXXV"/> touching Sir <hi>Richard Gurney</hi> be Reported on Tuesday morning next, the first businesse.</p>
+               <closer>
+                  <signed>Hen: Scobell, Cler. Parl.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="30" facs="tcp:172892:18"/>
+               <head>March 15. 1652.</head>
+               <p>REsolved upon the Question concerning Sir <hi>Rich:</hi>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XXXVI"/>
+                  <note place="margin">See fig. 29.</note>
+                  <hi>Gurney</hi>'s Fine, That the Parliament doe adhere to their former Vote.</p>
+               <closer>
+                  <signed>Hen: Scobell Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>The words of the Ordinance for Sequestration, April the 1. 1643.</head>
+               <p>BE it Ordained by the said Lords and Commons, That the Estates as well Reall as Personall of the several Bishops hereafter mentioned, <hi>viz. William,</hi> &amp;c. and of all other person and persons Ecclesiasticall or Temporall, as have raised or shall raise Arms against the Parliament, or have been, are, or shall be in actuall war against the same, or have voluntarily contributed, or shall voluntarily contribute (not being under the power of any part of the Kings army, at the time of such contri<g ref="char:EOLhyphen"/>buting) any Money, Horse, Plate, Armes, Munition, or other aid or Assistance for or towards the maintenance of any Forces raised against the Parliament, or for the Opposing of any force, or power raised by Authoritie of both Houses of Parliament, Or for the robbing, spoy<g ref="char:EOLhyphen"/>ling, plundering of any the Kings Subjects, who have willingly contributed or yeilded Obedience to the com<g ref="char:EOLhyphen"/>mand of both Houses of Parliament, and of all such as have joyned or shall joyne in any Oath, or Act of Asso<g ref="char:EOLhyphen"/>tiation against the Parliament: or have imposed or shall impose any Tax or Assessment upon his Majesties Sub<g ref="char:EOLhyphen"/>jects for or towards the maintenance of any Forces a<g ref="char:EOLhyphen"/>gainst the Parliament, or have or shall use any force or
+<pb n="31" facs="tcp:172892:18"/> power to levy the same, shall be forthwith seized and sequestred into the hands of the Sequestrators and Committees hereafter in this Ordinance named.</p>
+            </div>
+            <div type="part">
+               <head>The Additionall Ordinance, Aug. 19. 1643.</head>
+               <p>BE it now Declared and Ordered by the said Lords <milestone type="tcpmilestone" unit="unspecified" n="XXXVII"/> and Commons assembled, That in the number of such Delinquents, and Papists, who shall come within the compasse of the said former Ordinance, and to all intents and purposes to be proceeded against as notorious Delinquents or Papists, expresly described in the said Ordinances, shall be reckoned and accounted all such, as voluntarily absenting themselves from the usuall places of their abodes or dwellings, Trade, Offi<g ref="char:EOLhyphen"/>ces, or imployments, and have gone, or shall goe to any of the Kings Armies, or other Forces raised without con<g ref="char:EOLhyphen"/>sent of both Houses of Parliament, and have there con<g ref="char:EOLhyphen"/>tinued, or shall there continue, and shall not within ten dayes after seizure or sequestration of their several goods or estates, or stay made of their rents by force of the said Ordinance, (which said Sequestrators are hereby re<g ref="char:EOLhyphen"/>quired to doe shew sufficient cause to be allowed by the Committee of the County, City, or place, in which the said seizure, or sequestration or stay of rents, is or shall be made of such their absence, going and continuing in any of the said Armies or Forces; And all such as shall frau<g ref="char:EOLhyphen"/>dulently imbezell, conceale, or convey away all or any part of their goods, money, or estate, without valuable consideration, or not <hi>bonâ fide,</hi> thereby preventing or avoiding the payment of any Taxes or Assessments laid upon them by any Ordinance of both Houses of Parlia<g ref="char:EOLhyphen"/>ment,
+<pb n="32" facs="tcp:172892:19"/> or any distresse or seizure in case of non-payment thereof; Or that after any such Taxes or Assessments laid on them, convey themselves away, or refuse to be spoken with, whereby any taxe or assessement laid upon them by Ordinance of both Houses of Parliament, can<g ref="char:EOLhyphen"/>not be executed upon them or their Estates, according to the true meaning or purport thereof; or that have had any hand in the late horrid and desperate conspiracy and treason of <hi>Waller, Tomkins,</hi> and <hi>Challoner,</hi> and their con<g ref="char:EOLhyphen"/>federates, whether they be already, or hereafter shall be convicted to be privy and consenting thereunto, (except such as being not yet convicted, shall discover and con<g ref="char:EOLhyphen"/>fesse all that they know thereof, within the time limited by both Houses of Parliament, to such person or persons as are or shall be appointed to take such discoveries and confessions) Or that shall sue or molest any person or persons, who shall have yeelded obedience, or confor<g ref="char:EOLhyphen"/>mity unto the Orders, Ordinances, or Commands of both Houses of Parliament, or have been or shall be im<g ref="char:EOLhyphen"/>ployed by Authority of both the said Houses for or by reason of any thing done or to be done in execution or performance thereof, or that have willingly harbored any Popish Priests or Jesuits in their Houses or dwellings since the 29 of <hi>November</hi> 1642, or that shall hereafter so harbour any; And all and every person or persons which at any time heretofore have beene convicted of Popish Recusancy, and so continue, Or that have been or shall be thereof indicted, and such their Indictments removed by <hi>Certiorari,</hi> or being not removed, shall not by appearance and Traverse be legally discharged, before se<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>zure or sequestration made of their goods or estates, or stay of their rents, by force of this, or the said former Ordinance, or that have been at Masse at any
+<pb n="33" facs="tcp:172892:19"/> time within one whole yeare before the 26 day of March 1643, or shall hereafter be at Masse, or whose children or Grandchildren or any of them living in house with them, or under their or any of their tuition &amp; government, shall be brought up in the Popish Religion.</p>
+               <p>And all such persons as being of the age of Twenty one yeares, or above, shall refuse to take the Oath here<g ref="char:EOLhyphen"/>after expressed, shall forfeit as Papists within this and the said former Ordinances, and seizure, and sequestra<g ref="char:EOLhyphen"/>tion of two Third parts of all their goods and Estates, reall and personall, and sale of such proportion of their goods so seized and sequestred, shall be made, and their rents and estates disposed of, in such manner and proportion, and by such persons as by the said Ordi<g ref="char:EOLhyphen"/>nance of Sequestrations is appointed for Papists, &amp;c.</p>
+            </div>
+            <div type="part">
+               <head>A President for DISCHARGE. Die Martis 4. Martii 1644.</head>
+               <p>REsolved that the Commons assembled in Parlia<g ref="char:EOLhyphen"/>ment, <milestone type="tcpmilestone" unit="unspecified" n="XXXVIII"/> doe approve of and accept the summe of two thousand pounds for a Fine of Sir <hi>Robert Cooke,</hi> for discharge of his Delinquency, Sequestration of his Estate, and his Imprisonment.</p>
+               <closer>
+                  <signed>Hen: Scobell Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Martis, 17. November 1646.</head>
+               <p>ORdered by the Commons assembled in Parlia<g ref="char:EOLhyphen"/>ment, <milestone type="tcpmilestone" unit="unspecified" n="XXXIX"/> That the humble Petition of Sir <hi>Robert Cooke</hi> Knight, and the whole businesse of the Sequestration of his Estate be referred to the considerati<g ref="char:EOLhyphen"/>on
+<pb n="34" facs="tcp:172892:20"/> of the Committee of Lords and Commons for Se<g ref="char:EOLhyphen"/>questrations, to examine the whole matter, and report their opinions to the House.</p>
+               <closer>
+                  <signed>Hen: Scobell Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Die Iovis, 25. Febr. 1646.</head>
+               <p>UPon report this day made by Mr. <hi>Hen: Pelham,</hi>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XL"/> from the Committee of Lords and Commons for Sequestrations, concerning the Case touch<g ref="char:EOLhyphen"/>ing the Sequestration of the Estate of Sir <hi>Robert Cooke;</hi> to which Committee, the whole businesse concerning the Sequestrations of his Estate, was referred by parti<g ref="char:EOLhyphen"/>cular Order of this House. It is ordered upon the que<g ref="char:EOLhyphen"/>stion by the Commons assembled in Parliament, That the Estate reall and personall, of the said Sir <hi>Robert Cooke,</hi> be forthwith discharged from Sequestration, and the Sequestration of his Estate taken off; and that the Ren<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s staid in his Tenants hands, by order of the Committee of Lords and Commons for Sequestrati<g ref="char:EOLhyphen"/>ons, together with the Goods, Stock, and other Estate appointed by the same Order, not to be disposed or medled with by the Sequestrators till further order from this House be hereupon paid and restored to the said Sir <hi>Robert Cooke,</hi> and all Committees, Sequestra<g ref="char:EOLhyphen"/>tors, and their Officers, are to take notice of this Order, and to yeeld obedience hereunto accordingly.</p>
+               <closer>
+                  <signed>Hen: Scobell Cler. Par.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>
+                  <hi>Sir</hi> Richard Gurney's <hi>Deed of trust.</hi>
+               </head>
+               <p>BY <hi>Indenture</hi> made the 7. day of <hi>June</hi> in the year <milestone type="tcpmilestone" unit="unspecified" n="XLI"/> of our Lord God, 1641. Between <hi>Rich: Gurney</hi> Citizen and Alderman of <hi>London, Rob. Austin,</hi>
+                  <pb n="35" facs="tcp:172892:20"/> &amp;c. of the one part, <hi>Hen. Sandford</hi> of <hi>Bobing</hi> Court in the County of <hi>Kent</hi> Esq. <hi>John Pettus</hi> of <hi>Cheston</hi> Hall in the County of <hi>Suff.</hi> Knight, of the other part. The said <hi>Richard Gurney</hi> and <hi>Robert Austin,</hi> &amp;c. granted, bar<g ref="char:EOLhyphen"/>gained, sold, al<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ened, confirmed unto the said <hi>Henry Sandford, John Pettus,</hi> &amp;c. all that the Manour of <hi>Great Chauldfield,</hi> otherwise <hi>East Chauldfield,</hi> &amp;c. to have and to hold the said Manour, &amp;c. unto the said <hi>Henry Sandford, Iohn Pettus</hi> &amp;c. their Heires and Assignes for ever. Upon trust and confidence that the said <hi>Henry Sandford, Iohn P<gap reason="illegible" resp="#murp" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>s</hi> &amp;c. and their Heires shall after the decase of the said <hi>Richard Gurney,</hi> out of the rents and profits of all and singular the premisses, satisfie and pay all such Debts, Legacies, Guifts, bequefts, and summes of money, as the said <hi>Richard Gurney</hi> by his Estate, Will, or by any other Writing proved by three credible Witnesses, shall limit, declare, or appoint.</p>
+            </div>
+            <div type="part">
+               <head>
+                  <hi>Sir</hi> Richard Gurney's <hi>Will.</hi>
+               </head>
+               <p>ANd whereas I stand indebted, &amp;c. Now there<g ref="char:EOLhyphen"/>fore <milestone type="tcpmilestone" unit="unspecified" n="XLII"/> for the more sure, just, true and expeditious payment of the said 6000. l. and of all other my debts whatsoever, I doe further will, as followeth, (that is to say) <hi>Item,</hi> I doe further will, devise, direct, and appoint, that my said two Daughters, the said Dame <hi>Elizabeth Pettus,</hi> and the said <hi>Anne Richardson</hi> (whom I doe hereby constitute, ordaine, and make the Execut▪ of this my last Will and Testament) And all my seve<g ref="char:EOLhyphen"/>rall Trustees in that behalfe above named, or so many of them as are or from time to time shall be requisite for the doing thereof, may and shall with all convenient speed after my decease (for the just and true payment and full satisfaction of all my Debts) sell and convey
+<pb n="36" facs="tcp:172892:21"/> all that my Reversion, Inheritance, Interest, and Estate of and in the said Manour or Lordship of Great <hi>Chauld<g ref="char:EOLhyphen"/>field, alias</hi> East <hi>Chauldfield,</hi> with th'appurtenances in the said County of <hi>Wilts,</hi> and all other my Messages, Lands, Tenements, and Hereditaments with th'Appurtenan<g ref="char:EOLhyphen"/>ces, of which in the name of my selfe, or of any other person or persons in trust for me, I bought and purcha<g ref="char:EOLhyphen"/>sed of, &amp;c.</p>
+               <lg>
+                  <l>
+                     <hi>All which premisses were disposed by his Trustees and</hi>
+                  </l>
+                  <l>
+                     <hi>Executors accordingly, before the 1. of</hi> Dec. 1651.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>An Act of Generall Pardon and Oblivion. 24. Febr. 1651.</head>
+               <p>THe Parliament of England being most desirous <milestone type="tcpmilestone" unit="unspecified" n="XLIII"/> that the Mindes, persons, and Estates, of all the People of this Nation might be composed, set<g ref="char:EOLhyphen"/>tled, and secured, and that all Rancor and Evill-will, occasioned by the late differences may be buried in per<g ref="char:EOLhyphen"/>petuall Oblivion, that so the Government now esta<g ref="char:EOLhyphen"/>blished in the way of a Free State, might be complyed with, and all the Members of it, enjoy their just and Antient right and Liberties; and the former Commo<g ref="char:EOLhyphen"/>tions and troubles end in a quiet, calme and comfortable peace, Have resolved to do what in them lyes for the obteining and Effecting thereof, leaving the Successe, and their Endeavours unto the Blessing of God, and his working upon the Spirits of those that are concerned herein. Be it therefore Enacted by this present Par<g ref="char:EOLhyphen"/>liament, and by the Authoritie of the same, That all and every person and persons of or within the Common wealth of England, shall be and are by the Authoritie of this present Parliament acquired, pardoned, released,
+<pb n="37" facs="tcp:172892:21"/> and discharged, (as against the Parliament, the Keepers of the Liberties of England by Authority of Parlia<g ref="char:EOLhyphen"/>ment, or any or either of them) Of all manner of Trea<g ref="char:EOLhyphen"/>sons, Felonies, Offences, Contempts, Trespasses, En<g ref="char:EOLhyphen"/>tries, Wrongs, Deceipts, Misdemeanors, Forfeitures, se<g ref="char:EOLhyphen"/>questrations, penalties, and summes of money, Paines of death, paines Corporall, and pecuniary, and generally of all other things, Causes, Quarrels, Suits, Judgements and Executions, had, made, Committed, suffered, or done before the Third day of September, in the yeare One thousand six hundred fifty one, in this present Act, hereafter not excepted, nor foreprized.</p>
+               <p>And also be it Enacted by the Authoritie aforesaid, That this free pardon shall be as good and effectuall in the law to every of the persons, bodies Corporate, and others before rehearsed, in, for, and against all things which be not hereafter in this present Act excepted and foreprized, as the same pardon should have beene, if all Offences, contempts, forfeitures, Causes, matters, suits, quarrells, Judgements, Executions, penalties, and all other things not hereafter in this present Act ex<g ref="char:EOLhyphen"/>cepted and foreprized, had been particularly, especially, and plainely named, rehearsed, and specified, and also acquited, pardoned, released or discharged by proper and expresse words and Names, in their kinds, natures, and qualities, by words, and Termes thereunto requi<g ref="char:EOLhyphen"/>site to have beene put in and expressed in this present Act of Free pardon; and that the Persons, Bodies cor<g ref="char:EOLhyphen"/>porate, and others before rehearsed, nor any of them, nor the Heires, Successors, Executors, or Administra<g ref="char:EOLhyphen"/>tors, of any of them be, or shall be sued, vexed, or in<g ref="char:EOLhyphen"/>quieted in their bodies, goods, Chattells, Lands or Te<g ref="char:EOLhyphen"/>nements for any manner of matter, Cause, Contempt,
+<pb n="38" facs="tcp:172892:22"/> Misdemeanours, Forfeiture, Trespasse, Offence, or any other thing suffered, or done, or Committed against the late King, or the said Keepers of the Liberties of England, or any Ordinance of Parliament, or the Lawes or Statutes of the Commonwealth; but onely for such matters, causes, and Offences as be rehearsed, mentioned or intended in the Exceptions of this present Act, be foreprized and excepted, and for none other, any Sta<g ref="char:EOLhyphen"/>tute or Statutes, Lawes, Customes, or usages hereto<g ref="char:EOLhyphen"/>fore had, made or used to the contrary in any wise notwithstanding.</p>
+               <p>And Furthermore it is Enacted by the Authoritie of this present Parliament, That this said Pardon by the generall words, Clauses, and sentences before rehearsed shall be reputed, deemed, adjudged, expounded, al<g ref="char:EOLhyphen"/>lowed and taken, in all manner of Courts of Justice, and elsewhere, most beneficiall, and availeable to all and singular the Persons, Bodies Corporate, and others before rehearsed, and to every of them, in all things, not in this present Act, excepted or foreprized, with<g ref="char:EOLhyphen"/>out any Ambiguity, question or other delay whatsoever it shall be, to be made, pleaded, objected, or alleadged by the said Keepers of the Liberties of England, or by the Attorney Generall for the Common-wealth, or by any person or persons, for or on the behalfe of the said Keepers of the Liberties of England.</p>
+               <p>And Furthermore it is Enacted by the Authority of this present Parliament, That if any Officer or Clerke in any of the Courts commonly called the Chancery, Upper Bench, and Common pleas, or of the Publique Exchequer, or any other Officer or Clerke in any other Court within this Common-wealth, at any time after the Twentieth day of February One thousand six hun<g ref="char:EOLhyphen"/>dred
+<pb n="39" facs="tcp:172892:22"/> Fifty and One, shall make out, or write out any manner of Writts, Proces, summons, or other Precepts whereby any of the said persons, or any of the said Bodies Corporated; or others before rehearsed, or any of them shall be in any wise arrested, attached, distrey<g ref="char:EOLhyphen"/>ned, summoned, or otherwise vexed, inquieted, or grie<g ref="char:EOLhyphen"/>ved in his or their bodies, Lands, Tenements, heredita<g ref="char:EOLhyphen"/>ments, goods or Chattels, or in any of them, for or be<g ref="char:EOLhyphen"/>cause of anymanner of thing, acquited, pardoned, re<g ref="char:EOLhyphen"/>leased, or discharged, by vertue of this Act of F<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ee par<g ref="char:EOLhyphen"/>don; Or if any Sheriffe, or Escheator or any of their de<g ref="char:EOLhyphen"/>puty or deputies, or any Bailiffe, or other Officer what<g ref="char:EOLhyphen"/>soever, by color of his or their Office, or otherwise, af<g ref="char:EOLhyphen"/>ter the Twentieth day of February, One thousand six hundred Fifty and One, doe levy, receive, take, or with<g ref="char:EOLhyphen"/>hold of or from any person or persons any thing acquit<g ref="char:EOLhyphen"/>ted, pardoned, released or discharged by this Act, That then every such person so Offending, and thereof law<g ref="char:EOLhyphen"/>fully Convicted or condemned by sufficient Testimony, witnesse or proofe, shall yeild and pay for Recompence thereof, to the party so grieved or offended thereby, his or their treble damages, besides all Costs of the suite, And shall also forfeit and lose to the said Keepers of the Liberty of England for every such default Ten pounds; And Nevertheless all and singular such Writts, Proces and Precepts so to be made for or upon any manner of thing pardoned, or discharged by this present Act of Free pardon▪ shall be utterly void and of none effect.</p>
+               <p>And also Except all Sequestrations upon which any Lands, Tenements, Hereditaments, Goods or debts did the first day of december One thousand six hundred Fifty One stand actually sequestred, and all summes of money due upon any composition for Delinquency;
+<pb n="40" facs="tcp:172892:23"/> And all Lands, Tenements, and hereditaments, Bonds, Goods, or debts for which there is granted any Saving, or Respite upon such composition.</p>
+               <p>And also Excepted all Offences and Misdemeanors, whereof any Sentence or Judgement hath beene given in the Parliament since the Thirtieth of January One thousand six hundred forty Eight; And also the Sen<g ref="char:EOLhyphen"/>tences and Judgements so given, and Execution of the same, and all Fines, Imprisonments, Penalties, Forfei<g ref="char:EOLhyphen"/>tures and punishments of or for the same.</p>
+               <p>And also Excepted out of this Pardon All such per<g ref="char:EOLhyphen"/>son or persons, as were upon the Twenty Eighth day of January One thousand six hundred fifty and One, in prison, or otherwise restrained of Liberty, by imme<g ref="char:EOLhyphen"/>diate commandement, warrant, or direction of the Par<g ref="char:EOLhyphen"/>liament, or Councell of State, Or as Prisoners of Warre, as to the respective Offences for which they were and stand so committed or restreined.</p>
+               <p>And be it further Enacted, That the Lord Commis<g ref="char:EOLhyphen"/>sioners of the great Seale of England, the Justices of either Bench, and the Barrons of the Publique Exche<g ref="char:EOLhyphen"/>quer doe take notice hereof and give Order to the Offi<g ref="char:EOLhyphen"/>cers and Ministers of the said Court respectively, That this Free and generall pardon be in all points Observed, and that the severall Particulars hereby pardoned, any way depending in any of the said severall Courts, or which hereafter may happen to be Estreated or Certi<g ref="char:EOLhyphen"/>fied unto any of them, be forthwith discharged, And that no Proces, or other proceedings be hereafter had or made concerning the same.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:172892:23"/>
+         </div>
+      </body>
+   </text>
+</TEI>
